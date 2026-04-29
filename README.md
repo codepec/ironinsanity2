@@ -1,73 +1,108 @@
-# React + TypeScript + Vite
+# 🏋️‍♂️ Iron Insanity 2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A gamified fitness RPG — turn workouts into XP, quests, and boss battles.
 
-Currently, two official plugins are available:
+🔗 **Live App:** https://codepec.github.io/ironinsanity2
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ⚔️ Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Iron Insanity 2** transforms fitness into a full RPG progression system.
 
-## Expanding the ESLint configuration
+Every workout is a mission:
+Train → Gain XP → Complete Quests → Fight Bosses → Level Up
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🎮 Gameplay Loop
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- 🧭 Choose mission (Push / Pull / Legs / Boss)
+- ⚔️ Start workout session
+- 💥 Complete sets → earn XP + combo multiplier
+- 📦 Finish workout → claim rewards
+- 🏆 Unlock weekly progression
+- 📈 Level up your fitness character
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 💪 Features
+
+### 🧠 RPG Workout System
+- XP per set system
+- Combo multiplier for streak performance
+- Push / Pull / Legs split
+- Boss workouts unlocked weekly
+- Pause system between sets (recovery mechanic)
+
+### 🎯 Quest System
+- Daily quests (short-term rewards)
+- Weekly quests (progression system)
+- XP rewards integrated into leveling
+
+### 🧭 Progression System
+- Week-based mission structure
+- Persistent progress (localStorage)
+- Global XP tracking
+- Unlockable boss fights
+
+---
+
+## 📱 Mobile First Design
+
+- Built for gym use (fast interaction)
+- Compact workout HUD
+- One-screen focus during training
+- Collapsible details (no UI overload)
+- Minimal scrolling design philosophy
+
+---
+
+## 🧱 Tech Stack
+
+- React 19
+- Vite
+- TypeScript
+- React Router
+- Framer Motion
+- Tailwind CSS (optional)
+- LocalStorage persistence
+
+---
+
+## 🚀 Deployment
+
+### Build project
+```
+npm run build
+```
+## Deploy to GitHub Pages
+
+```
+npm run deploy
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+This project combines:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Fitness tracking
+RPG mechanics
+Gamification psychology
+Habit building systems
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+“Train like it’s a game. Progress like a character.”
+
+# Status
+Active deployment
+
+## ⚠️ Disclaimer
+
+This application is a gamified fitness tool for motivational and educational purposes only.
+
+It is not a medical or professional training system.
+
+The developers are not responsible for:
+- incorrect exercise execution
+- injuries or health issues resulting from training
+- misuse of the provided workout suggestions
+
+Always consult a qualified fitness trainer or medical professional before starting a new training program.
