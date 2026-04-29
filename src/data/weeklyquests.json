@@ -1,0 +1,92 @@
+{
+  "weeklyQuests": [
+    {
+      "id": 1,
+      "title": "Der Aufstieg des Kriegers",
+      "quests": [
+        { "questId": "1-1", "text": "Wochenmission 1 abschliessen", "reward": 300, "completed": false },
+        { "questId": "1-2", "text": "Wochenmission 2 abschliessen", "reward": 200, "completed": false },
+        { "questId": "1-3", "text": "Wochenmission 3 abschliessen", "reward": 250, "completed": false },
+        { "questId": "1-4", "text": "Wochenmission 4 abschliessen", "reward": 300, "completed": false },
+        { "questId": "1-5", "text": "Wochenmission 5 abschliessen", "reward": 800, "completed": false }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Der eiserne Wille",
+      "quests": [
+        { "questId": "2-1", "text": "Wochenmission 1 abschliessen", "reward": 400, "completed": false },
+        { "questId": "2-2", "text": "Wochenmission 2 abschliessen", "reward": 250, "completed": false },
+        { "questId": "2-3", "text": "Wochenmission 3 abschliessen", "reward": 350, "completed": false },
+        { "questId": "2-4", "text": "Wochenmission 4 abschliessen", "reward": 400, "completed": false },
+        { "questId": "2-5", "text": "Wochenmission 5 abschliessen", "reward": 1000, "completed": false }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Der Pfad der Bestie",
+      "quests": [
+        { "questId": "3-1", "text": "Wochenmission 1 abschliessen", "reward": 600, "completed": false },
+        { "questId": "3-2", "text": "Wochenmission 2 abschliessen", "reward": 400, "completed": false },
+        { "questId": "3-3", "text": "Wochenmission 3 abschliessen", "reward": 500, "completed": false },
+        { "questId": "3-4", "text": "Wochenmission 4 abschliessen", "reward": 600, "completed": false },
+        { "questId": "3-5", "text": "Wochenmission 5 abschliessen", "reward": 1200, "completed": false }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Der Elite-Soldat",
+      "quests": [
+        { "questId": "4-1", "text": "Wochenmission 1 abschliessen", "reward": 800, "completed": false },
+        { "questId": "4-2", "text": "Wochenmission 2 abschliessen", "reward": 500, "completed": false },
+        { "questId": "4-3", "text": "Wochenmission 3 abschliessen", "reward": 700, "completed": false },
+        { "questId": "4-4", "text": "Wochenmission 4 abschliessen", "reward": 800, "completed": false },
+        { "questId": "4-5", "text": "Wochenmission 5 abschliessen", "reward": 1400, "completed": false }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Die Kriegsmaschine",
+      "quests": [
+        { "questId": "5-1", "text": "Wochenmission 1 abschliessen", "reward": 1000, "completed": false },
+        { "questId": "5-2", "text": "Wochenmission 2 abschliessen", "reward": 700, "completed": false },
+        { "questId": "5-3", "text": "Wochenmission 3 abschliessen", "reward": 900, "completed": false },
+        { "questId": "5-4", "text": "Wochenmission 4 abschliessen", "reward": 1000, "completed": false },
+        { "questId": "5-5", "text": "Wochenmission 5 abschliessen", "reward": 1600, "completed": false }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Der Titan",
+      "quests": [
+        { "questId": "6-1", "text": "Wochenmission 1 abschliessen", "reward": 1300, "completed": false },
+        { "questId": "6-2", "text": "Wochenmission 2 abschliessen", "reward": 900, "completed": false },
+        { "questId": "6-3", "text": "Wochenmission 3 abschliessen", "reward": 1100, "completed": false },
+        { "questId": "6-4", "text": "Wochenmission 4 abschliessen", "reward": 1300, "completed": false },
+        { "questId": "6-5", "text": "Wochenmission 5 abschliessen", "reward": 1800, "completed": false }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Die Legende",
+      "quests": [
+        { "questId": "7-1", "text": "Wochenmission 1 abschliessen", "reward": 1600, "completed": false },
+        { "questId": "7-2", "text": "Wochenmission 2 abschliessen", "reward": 1100, "completed": false },
+        { "questId": "7-3", "text": "Wochenmission 3 abschliessen", "reward": 1300, "completed": false },
+        { "questId": "7-4", "text": "Wochenmission 4 abschliessen", "reward": 1600, "completed": false },
+        { "questId": "7-5", "text": "Wochenmission 5 abschliessen", "reward": 2000, "completed": false }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "OMEGA PRIME",
+      "quests": [
+        { "questId": "8-1", "text": "Wochenmission 1 abschliessen", "reward": 2000, "completed": false },
+        { "questId": "8-2", "text": "Wochenmission 2 abschliessen", "reward": 1500, "completed": false },
+        { "questId": "8-3", "text": "Wochenmission 3 abschliessen", "reward": 1800, "completed": false },
+        { "questId": "8-4", "text": "Wochenmission 4 abschliessen", "reward": 2000, "completed": false },
+        { "questId": "8-5", "text": "Wochenmission 5 abschliessen", "reward": 2500, "completed": false }
+      ]
+    }
+  ]
+}

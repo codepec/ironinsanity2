@@ -1,0 +1,134 @@
+.settings-page {
+  width: 100%;
+  max-width: 920px;
+  padding: 0 14px 48px;
+}
+
+/* HERO */
+.settings-hero {
+  text-align: center;
+  padding: 28px 20px 32px;
+  margin-bottom: 22px;
+  border-radius: 20px;
+  border: 1px solid rgba(34, 211, 238, 0.35);
+  background:
+    radial-gradient(ellipse 120% 80% at 50% -20%, rgba(34, 211, 238, 0.18), transparent 55%),
+    linear-gradient(165deg, rgba(15, 23, 42, 0.95), rgba(17, 24, 39, 0.88));
+  box-shadow: 0 0 40px rgba(34, 211, 238, 0.12);
+}
+
+.settings-kicker {
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #67e8f9;
+}
+
+.settings-title {
+  font-size: 2rem;
+  font-weight: 900;
+  background: var(--goldLinear);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.settings-lead {
+  color: #94a3b8;
+  margin-top: 10px;
+}
+
+/* GLORY */
+.settings-glory {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.settings-glory-card {
+  padding: 16px;
+  border-radius: 14px;
+  background: rgba(15, 23, 42, 0.75);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  text-align: center;
+}
+
+.settings-glory-value {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.settings-glory-value.accent {
+  color: #67e8f9;
+}
+
+.settings-glory-label {
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+/* SECTION */
+.settings-section {
+  margin-bottom: 24px;
+}
+
+.settings-section-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.settings-section-title {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.settings-section-sub {
+  font-size: 0.8rem;
+  color: #64748b;
+}
+
+/* WEEK BUTTONS */
+.settings-week-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.settings-week {
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  background: rgba(17, 24, 39, 0.85);
+  color: #e2e8f0;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.settings-week:hover {
+  border-color: rgba(34, 211, 238, 0.4);
+}
+
+.settings-week.active {
+  border-color: rgba(245, 158, 11, 0.6);
+  box-shadow: 0 0 18px rgba(245, 158, 11, 0.25);
+}
+
+/* RESET */
+.settings-danger {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  color: #f87171;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.settings-danger:hover {
+  background: rgba(239, 68, 68, 0.25);
+}

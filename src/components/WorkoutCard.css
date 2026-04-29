@@ -1,0 +1,277 @@
+/* Container */
+.card {
+  text-align: center;
+  background: linear-gradient(145deg, #1e1e2f, #2a2a40);
+  border-radius: 16px;
+  padding: 20px;
+  color: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  max-width: 420px;
+  width: 100%;
+  margin-top: 25px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* WorkoutCard: Enemy als aggressiver Hintergrund */
+.workout-card{
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border: 1px solid rgba(127, 29, 29, 0.45);
+  box-shadow:
+    0 10px 28px rgba(0,0,0,0.65),
+    inset 0 0 60px rgba(127, 29, 29, 0.08);
+}
+
+.workout-card::before{
+  content:"";
+  position:absolute;
+  inset: 0;
+  z-index:0;
+  /* Ohne Hintergrundbild: nur aggressive Textur + Glows */
+  background:
+    radial-gradient(ellipse 70% 55% at 15% 25%, rgba(239, 68, 68, 0.22), transparent 55%),
+    radial-gradient(ellipse 60% 45% at 90% 20%, rgba(251, 191, 36, 0.14), transparent 55%),
+    radial-gradient(ellipse 90% 80% at 50% 120%, rgba(127, 29, 29, 0.22), transparent 55%),
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.03),
+      rgba(255, 255, 255, 0.03) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+  opacity: 1;
+  pointer-events:none;
+}
+
+.workout-card::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:0;
+  background: linear-gradient(
+    145deg,
+    rgba(5,5,8,0.88) 0%,
+    rgba(10,10,12,0.82) 40%,
+    rgba(69,10,10,0.55) 100%
+  );
+  pointer-events:none;
+}
+
+.workout-card > *{
+  position: relative;
+  z-index: 1;
+}
+
+/* Hover Effekt */
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+}
+
+/* Boss Variante 🔥 */
+.card.boss {
+  border: 2px solid #ff4757;
+  box-shadow: 0 0 20px rgba(255, 71, 87, 0.6);
+}
+
+/* Meta (Muscle) */
+.meta {
+  font-size: 12px;
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+/* Exercise Name */
+.exercise {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/* Satz Box */
+.set-box {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Progress Bar */
+.set-progress {
+  width: 100%;
+  height: 8px;
+  background: #111;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.set-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4cd137, #00a8ff);
+  transition: width 0.3s ease;
+}
+
+/* Info Grid */
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+/* Button */
+.primary {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #00a8ff, #4cd137);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.1s ease, opacity 0.2s ease;
+}
+
+.primary:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+.primary:active {
+  transform: scale(0.98);
+}
+
+
+/* Enemy Name */
+.enemy-info {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #facc15; /* Gelblich für RPG */
+  text-shadow: 0 0 8px #facc1555;
+}
+
+/* Enemy / Boss Image */
+.muscle-icon {
+  width: 300px;
+  display: block;
+  margin: 12px auto;
+  border-radius: 12px;
+    /* Doppelter Glow + innerer Schein */
+  filter:
+    drop-shadow(0 0 6px #ff4c4c)
+    drop-shadow(0 0 10px #ff6b6b)
+    drop-shadow(0 0 20px #ff4c4caa);
+
+  /* Leichter 3D-Effekt durch Schatten */
+  box-shadow:
+    0 8px 20px rgba(0,0,0,0.6) inset,
+    0 0 15px rgba(255,76,76,0.5);
+  animation: breathe 2s infinite;
+}
+
+/* Mobile: Bild nicht im Weg – als Hintergrund reicht es */
+@media (max-width: 480px) {
+  .card{
+    padding: 16px;
+    margin-top: 12px;
+  }
+
+  .exercise{
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    letter-spacing: 0.02em;
+  }
+
+  .enemy-info{
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+  }
+
+  .muscle-icon{
+    width: 140px;
+    margin: 6px auto 8px;
+    opacity: 0.55;
+    filter:
+      drop-shadow(0 0 8px rgba(239, 68, 68, 0.55))
+      drop-shadow(0 0 18px rgba(248, 113, 113, 0.35));
+    animation: none;
+  }
+
+  .info-grid{
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .primary{
+    padding: 14px;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #b91c1c 0%, #7f1d1d 55%, #450a0a 100%);
+    border: 1px solid rgba(248, 113, 113, 0.45);
+    box-shadow: 0 0 20px rgba(239, 68, 68, 0.22);
+  }
+}
+
+@keyframes breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+/* HP-Füllung */
+.set-hp-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ef4444, #f87171);
+  transition: width 0.35s ease;
+}
+
+/* Boss Glow */
+.card.boss {
+  border-color: #ef4444;
+  box-shadow:
+    0 0 40px #ef444466,
+    0 0 80px #ef444422 inset;
+  animation: bossPulse 1.6s infinite;
+}
+
+@keyframes bossPulse {
+  0%, 100% { box-shadow: 0 0 30px #ef444444; }
+  50% { box-shadow: 0 0 70px #ef444488; }
+}
+
+/* BADGE */
+.row{ display:grid; grid-template-columns:repeat(5,1fr); gap:8px; margin-top:10px; }
+.badge {
+  font-family: 'Orbitron', sans-serif;
+  background:var(--bg-soft); 
+  border-radius:5px; 
+  padding:8px 6px; 
+  text-align:center; 
+  transition:.2s ease;
+  background:var(--goldLinear);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  -webkit-text-stroke:1px var(--goldLinear);
+  background-clip: text;
+  border:1px solid var(--accent);
+}
+
+
+/* Value / Punkte */
+.badge-value {
+
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 12px;
+}

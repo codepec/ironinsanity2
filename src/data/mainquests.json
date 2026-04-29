@@ -1,0 +1,80 @@
+{
+  "mainQuestline": {
+    "id": "titan_path",
+    "title": "Der Pfad des Titanen",
+    "description": "Schließe jede Woche den Bosskampf ab, um den Aufstieg zum Titanen zu vollenden.",
+    "totalWeeks": 8,
+    "quests": [
+      {
+        "week": 1,
+        "questId": "titan-1",
+        "title": "Der Erwachte",
+        "reward": 1000,
+        "completed": false,
+        "story": "Du warst schwach. Orientierungslos. Doch heute hast du den ersten Gegner besiegt. Dein Körper schmerzt – aber etwas in dir ist erwacht."
+      },
+      {
+        "week": 2,
+        "questId": "titan-2",
+        "title": "Der Standhafte",
+        "reward": 1500,
+        "completed": false,
+        "story": "Der Schmerz ist dein Begleiter geworden. Wo andere aufgeben, bleibst du stehen. Deine Disziplin beginnt, dich zu formen."
+      },
+      {
+        "week": 3,
+        "questId": "titan-3",
+        "title": "Der Unerschütterliche",
+        "reward": 2000,
+        "completed": false,
+        "story": "Zweifel greifen dich an – doch sie prallen ab. Deine Kraft wächst, nicht nur im Körper, sondern auch im Geist."
+      },
+      {
+        "week": 4,
+        "questId": "titan-4",
+        "title": "Der Dominierende",
+        "reward": 3000,
+        "completed": false,
+        "story": "Du bist nicht mehr der Schwächste im Raum. Deine Präsenz verändert sich. Gegner beginnen, dich zu fürchten."
+      },
+      {
+        "week": 5,
+        "questId": "titan-5",
+        "title": "Die Kriegsgewalt",
+        "reward": 4000,
+        "completed": false,
+        "story": "Dein Körper ist zu einer Waffe geworden. Jede Bewegung trägt Kraft. Jeder Schritt ist Kontrolle."
+      },
+      {
+        "week": 6,
+        "questId": "titan-6",
+        "title": "Der Titanenblut-Träger",
+        "reward": 6000,
+        "completed": false,
+        "story": "Etwas Altes fließt durch deine Adern. Deine Grenzen verschwimmen. Du trainierst nicht mehr – du wirst geschmiedet."
+      },
+      {
+        "week": 7,
+        "questId": "titan-7",
+        "title": "Der Unaufhaltsame",
+        "reward": 8000,
+        "completed": false,
+        "story": "Nichts hält dich mehr auf. Müdigkeit existiert nicht mehr für dich. Du gehst weiter, egal wie schwer es wird."
+      },
+      {
+        "week": 8,
+        "questId": "titan-8",
+        "title": "Der Titan",
+        "reward": 15000,
+        "completed": false,
+        "story": "Du bist nicht mehr der Mensch, der du warst. Dein Körper ist stark. Dein Geist unzerbrechlich. Du bist ein Titan."
+      }
+    ],
+    "finalReward": {
+      "xp": 50000,
+      "titleUnlock": "TITAN",
+      "bonus": "Endgame freigeschaltet",
+      "story": "Die Reise endet hier nicht. Titanen ruhen nicht – sie herrschen. Neue Prüfungen warten auf dich."
+    }
+  }
+}

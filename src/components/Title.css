@@ -1,0 +1,107 @@
+/* =========================
+   BASE
+========================= */
+.title-container {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+
+
+/* =========================
+   ANIMATIONS
+========================= */
+@keyframes glitchTop {
+  0% { clip-path: inset(0 0 80% 0); transform: translate(-2px, -2px); }
+  20% { clip-path: inset(10% 0 60% 0); transform: translate(2px, 2px); }
+  40% { clip-path: inset(20% 0 40% 0); transform: translate(-1px, 1px); }
+  60% { clip-path: inset(30% 0 30% 0); transform: translate(1px, -1px); }
+  80% { clip-path: inset(40% 0 20% 0); transform: translate(2px, 1px); }
+  100% { clip-path: inset(50% 0 10% 0); transform: translate(-2px, -1px); }
+}
+
+@keyframes glitchBottom {
+  0% { clip-path: inset(80% 0 0 0); transform: translate(2px, 2px); }
+  20% { clip-path: inset(60% 0 10% 0); transform: translate(-2px, -1px); }
+  40% { clip-path: inset(40% 0 20% 0); transform: translate(1px, 2px); }
+  60% { clip-path: inset(30% 0 30% 0); transform: translate(-1px, -2px); }
+  80% { clip-path: inset(20% 0 40% 0); transform: translate(2px, 0px); }
+  100% { clip-path: inset(10% 0 50% 0); transform: translate(-2px, 1px); }
+}
+
+/* =========================
+   REST
+========================= */
+.decorative-line {
+  margin: 12px auto;
+  height: 5px;
+  display: block;
+  display: block;
+
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #bbb;
+  margin-top: 8px;
+}
+
+.alert-container {
+  margin-top: 12px;
+}
+
+.alert {
+  font-family: Rajdhani, sans-serif;
+  font-size: 13px;
+  color: #ff4d4d;
+  font-weight: bold;
+  animation: alertPulse 2s infinite;
+}
+
+@keyframes alertPulse {
+  0% {
+  transform: scale(1);
+  }
+  10% {
+    transform: scale(1.08);
+  }
+  20% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.04);
+  }
+  40% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }}
+/* =========================
+   🔥 TITLE GLITCH (THEME SAFE)
+========================= */
+
+.title-container{
+  width:100%;
+  text-align:center;
+  margin-top:10px;
+}
+
+.title-glitch{
+  position:relative;
+  font-size:1.6rem;
+  font-weight:900;
+  letter-spacing:2px;
+  font-family:'Orbitron', sans-serif;
+  background:var(--goldLinear);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+
+
+

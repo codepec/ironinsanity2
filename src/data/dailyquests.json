@@ -1,0 +1,18 @@
+{
+  "dailyQuestSystem": {
+    "selectionCount": 3,
+    "reset": "daily",
+    "questPool": [
+      { "questId": "dq-1", "text": "Tagestraining abschliessen", "reward": 100, "completed": false },
+      { "questId": "dq-2", "text": "20+ Minuten Training absolvieren", "reward": 120, "completed": false },
+      { "questId": "dq-3", "text": "Konstant trainieren und Mission beenden", "reward": 150, "completed": false },
+      { "questId": "dq-4", "text": "Workout des Tages erledigen", "reward": 150, "completed": false },
+      { "questId": "dq-5", "text": "Sauberes Training bis zum Ende", "reward": 120, "completed": false },
+      { "questId": "dq-6", "text": "Tagesquest durch Session abschliessen", "reward": 200, "completed": false },
+      { "questId": "dq-7", "text": "Heute aktiv trainieren", "reward": 200, "completed": false },
+      { "questId": "dq-8", "text": "Vollstaendige Session spielen", "reward": 80, "completed": false },
+      { "questId": "dq-9", "text": "Dranbleiben bis Trainingsende", "reward": 100, "completed": false },
+      { "questId": "dq-10", "text": "Mission starten und abschliessen", "reward": 80, "completed": false }
+    ]
+  }
+}

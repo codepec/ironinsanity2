@@ -1,0 +1,147 @@
+/* =====================
+   HEADER WRAPPER
+===================== */
+.rank-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 16px;
+  position: sticky;
+  background-color: #0b0b0b;
+  top: 0;
+  z-index: 60;
+}
+
+/* =====================
+   NAV BUTTONS
+===================== */
+.rank-header .backButton {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  color: var(--text-main);
+  cursor: pointer;
+}
+
+.rank-header .backButton svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* =====================
+   RANK BOX
+===================== */
+.rank-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 16px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #1b1b1b, #0b0b0b);
+  box-shadow:
+    0 0 18px color-mix(in srgb, var(--accent) 35%, transparent),
+    inset 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+/* =====================
+   RANK INFO
+===================== */
+.rank {
+  flex: 1;
+  min-width: 0;
+}
+
+.rank-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+}
+
+.rank-title span {
+  color: var(--accent);
+}
+
+.xp-text {
+  font-size: 0.75rem;
+  opacity: 0.75;
+  margin-top: 2px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/* =====================
+   XP BAR
+===================== */
+.xp-bar {
+  margin-top: 5px;
+  height: 8px;
+  background: var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.xp-fill {
+  height: 100%;
+  width: 40%;
+  background: linear-gradient(90deg, var(--accent), var(--accent-soft));
+  box-shadow: 0 0 12px var(--accent);
+  transition: width 0.4s ease;
+}
+
+/* =====================
+   STATS
+===================== */
+.stat {
+  text-align: center;
+}
+
+.stat-title {
+  font-size: 0.6rem;
+  opacity: 0.6;
+  letter-spacing: 0.8px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.stat-value {
+  font-size: 1.2rem;
+  font-weight: 900;
+  font-family: 'Orbitron', sans-serif;
+  color: var(--accent);
+}
+
+/* =====================
+   DIVIDER
+===================== */
+.divider {
+  width: 1px;
+  height: 34px;
+  background: var(--border);
+}
+
+/* =====================
+   MOBILE
+===================== */
+@media (max-width: 600px) {
+  .rank-box {
+    gap: 12px;
+    padding: 8px 12px;
+  }
+
+  .stat-value {
+    font-size: 1rem;
+  }
+
+  .rank-title {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "bossWeeks": [
+    {
+      "week": 1,
+      "name": "Der gefallene Krieger",
+      "workout": [
+        { "exercise": "KH Bankdrücken", "sets": 5, "repetitions": "10", "weight": 12, "pause": 60, "xp": 150 },
+        { "exercise": "Liegestütze", "sets": 3, "repetitions": "Max", "weight": 0, "pause": 45, "xp": 100 },
+
+        { "exercise": "Kurzhantelrudern", "sets": 4, "repetitions": "10", "weight": 12, "pause": 60, "xp": 120 },
+        { "exercise": "Renegade Rows", "sets": 3, "repetitions": "8", "weight": 10, "pause": 60, "xp": 120 },
+
+        { "exercise": "Goblet Squats", "sets": 4, "repetitions": "12", "weight": 16, "pause": 75, "xp": 150 },
+        { "exercise": "Wadenheben", "sets": 3, "repetitions": "20", "weight": 0, "pause": 45, "xp": 80 }
+      ]
+    },
+
+    {
+      "week": 2,
+      "name": "Schattenbestie",
+      "workout": [
+        { "exercise": "Schrägbank KH", "sets": 4, "repetitions": "10", "weight": 12, "pause": 60, "xp": 140 },
+        { "exercise": "KH Fliegende", "sets": 3, "repetitions": "12", "weight": 8, "pause": 60, "xp": 100 },
+
+        { "exercise": "Reverse Fly", "sets": 3, "repetitions": "15", "weight": 6, "pause": 45, "xp": 100 },
+        { "exercise": "KH Curls", "sets": 3, "repetitions": "12", "weight": 8, "pause": 60, "xp": 100 },
+
+        { "exercise": "Bulgarian Split Squat", "sets": 3, "repetitions": "10/Bein", "weight": 12, "pause": 75, "xp": 140 }
+      ]
+    },
+
+    {
+      "week": 3,
+      "name": "Titan der Arena",
+      "workout": [
+        { "exercise": "KH Bankdrücken", "sets": 5, "repetitions": "8", "weight": 16, "pause": 75, "xp": 160 },
+        { "exercise": "Liegestütze", "sets": 3, "repetitions": "Max", "weight": 0, "pause": 45, "xp": 120 },
+
+        { "exercise": "Kurzhantelrudern", "sets": 5, "repetitions": "8", "weight": 16, "pause": 75, "xp": 160 },
+
+        { "exercise": "Goblet Squats", "sets": 5, "repetitions": "10", "weight": 20, "pause": 90, "xp": 180 }
+      ]
+    },
+
+    {
+      "week": 4,
+      "name": "Flammenlord",
+      "workout": [
+        { "exercise": "Arnold Press", "sets": 4, "repetitions": "8", "weight": 12, "pause": 75, "xp": 140 },
+        { "exercise": "Seitheben", "sets": 3, "repetitions": "15", "weight": 6, "pause": 45, "xp": 100 },
+
+        { "exercise": "Renegade Rows", "sets": 4, "repetitions": "8", "weight": 12, "pause": 60, "xp": 140 },
+
+        { "exercise": "Ausfallschritte KH", "sets": 4, "repetitions": "10/Bein", "weight": 14, "pause": 75, "xp": 160 }
+      ]
+    },
+
+    {
+      "week": 5,
+      "name": "Der eiserne Wächter",
+      "workout": [
+        { "exercise": "KH Bankdrücken", "sets": 6, "repetitions": "6-8", "weight": 18, "pause": 90, "xp": 180 },
+        { "exercise": "KH Fliegende", "sets": 3, "repetitions": "10", "weight": 12, "pause": 60, "xp": 120 },
+
+        { "exercise": "Kurzhantelrudern", "sets": 5, "repetitions": "8", "weight": 18, "pause": 75, "xp": 180 },
+
+        { "exercise": "Goblet Squats", "sets": 5, "repetitions": "8", "weight": 24, "pause": 90, "xp": 200 }
+      ]
+    },
+
+    {
+      "week": 6,
+      "name": "Blutbestie",
+      "workout": [
+        { "exercise": "Schulterdrücken KH", "sets": 5, "repetitions": "6-8", "weight": 14, "pause": 90, "xp": 160 },
+        { "exercise": "Seitheben", "sets": 4, "repetitions": "12", "weight": 8, "pause": 60, "xp": 120 },
+
+        { "exercise": "Reverse Fly", "sets": 3, "repetitions": "12", "weight": 10, "pause": 60, "xp": 120 },
+
+        { "exercise": "Bulgarian Split Squat", "sets": 4, "repetitions": "8/Bein", "weight": 18, "pause": 75, "xp": 180 }
+      ]
+    },
+
+    {
+      "week": 7,
+      "name": "König der Titanen",
+      "workout": [
+        { "exercise": "KH Bankdrücken", "sets": 6, "repetitions": "5-7", "weight": 22, "pause": 90, "xp": 200 },
+        { "exercise": "Liegestütze", "sets": 3, "repetitions": "Max", "weight": 0, "pause": 45, "xp": 150 },
+
+        { "exercise": "Kurzhantelrudern", "sets": 6, "repetitions": "5-7", "weight": 22, "pause": 90, "xp": 200 },
+
+        { "exercise": "Goblet Squats", "sets": 6, "repetitions": "6-8", "weight": 28, "pause": 90, "xp": 220 }
+      ]
+    },
+
+    {
+      "week": 8,
+      "name": "Endboss: Der Unsterbliche",
+      "workout": [
+        { "exercise": "KH Bankdrücken", "sets": 6, "repetitions": "5", "weight": 22, "pause": 90, "xp": 250 },
+        { "exercise": "Schrägbank KH", "sets": 4, "repetitions": "8", "weight": 16, "pause": 75, "xp": 180 },
+
+        { "exercise": "Renegade Rows", "sets": 5, "repetitions": "8", "weight": 18, "pause": 75, "xp": 200 },
+
+        { "exercise": "Bulgarian Split Squat", "sets": 5, "repetitions": "8/Bein", "weight": 22, "pause": 75, "xp": 220 },
+
+        { "exercise": "Liegestütze", "sets": 1, "repetitions": "MAX OUT", "weight": 0, "pause": 0, "xp": 300 }
+      ]
+    }
+  ]
+}

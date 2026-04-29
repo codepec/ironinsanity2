@@ -1,0 +1,165 @@
+{
+  "weeks": [
+    {
+      "week": 1,
+      "Push": [
+        { "title": "Brust", "exercise": "KH Bankdrücken", "sets": 4, "repetitions": "8-12", "weight": 12, "pause": 60, "muscle": "Chest", "xp": 100, "enemyName": "Infernal Demon" },
+        { "title": "Brust", "exercise": "Schrägbank KH Drücken", "sets": 3, "repetitions": "8-12", "weight": 10, "pause": 60, "muscle": "Chest", "xp": 80, "enemyName": "Imp Brute" },
+        { "title": "Schultern", "exercise": "Schulterdrücken KH", "sets": 3, "repetitions": "8-10", "weight": 10, "pause": 60, "muscle": "Shoulders", "xp": 80, "enemyName": "Imp Brute" },
+        { "title": "Schultern", "exercise": "Seitheben", "sets": 3, "repetitions": "12-15", "weight": 4, "pause": 60, "muscle": "Shoulders", "xp": 60, "enemyName": "Fire Imp" }
+      ],
+      "Pull": [
+        { "title": "Rücken", "exercise": "Kurzhantelrudern", "sets": 4, "repetitions": "8-12", "weight": 12, "pause": 60, "muscle": "Back", "xp": 100, "enemyName": "Skeleton Champion" },
+        { "title": "Rücken", "exercise": "Renegade Rows", "sets": 3, "repetitions": "8-10", "weight": 10, "pause": 60, "muscle": "Back", "xp": 80, "enemyName": "Skeleton Warrior" },
+        { "title": "Bizeps", "exercise": "KH Curls", "sets": 3, "repetitions": "10-12", "weight": 8, "pause": 60, "muscle": "Biceps", "xp": 60, "enemyName": "Skeleton Minion" }
+      ],
+      "Legs": [
+        { "title": "Beine", "exercise": "Goblet Squats", "sets": 4, "repetitions": "10-12", "weight": 16, "pause": 90, "muscle": "Legs", "xp": 100, "enemyName": "Orc Warlord" },
+        { "title": "Beine", "exercise": "Ausfallschritte KH", "sets": 3, "repetitions": "10/Bein", "weight": 12, "pause": 60, "muscle": "Legs", "xp": 80, "enemyName": "Orc Berserker" },
+        { "title": "Beine", "exercise": "Wadenheben", "sets": 3, "repetitions": "15-20", "weight": 0, "pause": 60, "muscle": "Legs", "xp": 60, "enemyName": "Orc Grunt" }
+      ]
+    },
+
+    {
+      "week": 2,
+      "Push": [
+        { "title": "Brust", "exercise": "KH Bankdrücken", "sets": 4, "repetitions": "8-12", "weight": 12, "pause": 60, "muscle": "Chest", "xp": 100, "enemyName": "Infernal Demon" },
+        { "title": "Brust", "exercise": "KH Fliegende", "sets": 3, "repetitions": "10-12", "weight": 8, "pause": 60, "muscle": "Chest", "xp": 80, "enemyName": "Imp Brute" },
+        { "title": "Schultern", "exercise": "Arnold Press KH", "sets": 3, "repetitions": "8-10", "weight": 10, "pause": 60, "muscle": "Shoulders", "xp": 80, "enemyName": "Imp Brute" },
+        { "title": "Schultern", "exercise": "Seitheben", "sets": 3, "repetitions": "12-15", "weight": 4, "pause": 60, "muscle": "Shoulders", "xp": 60, "enemyName": "Fire Imp" }
+      ],
+      "Pull": [
+        { "title": "Rücken", "exercise": "Kurzhantelrudern", "sets": 4, "repetitions": "8-12", "weight": 12, "pause": 60, "muscle": "Back", "xp": 100, "enemyName": "Skeleton Champion" },
+        { "title": "Rücken", "exercise": "Renegade Rows", "sets": 3, "repetitions": "8-10", "weight": 10, "pause": 60, "muscle": "Back", "xp": 80, "enemyName": "Skeleton Warrior" },
+        { "title": "Rücken", "exercise": "Reverse Fly KH", "sets": 3, "repetitions": "12-15", "weight": 6, "pause": 60, "muscle": "Back", "xp": 80, "enemyName": "Skeleton Warrior" },
+        { "title": "Bizeps", "exercise": "Hammer Curls", "sets": 3, "repetitions": "10-12", "weight": 8, "pause": 60, "muscle": "Biceps", "xp": 60, "enemyName": "Skeleton Minion" }
+      ],
+      "Legs": [
+        { "title": "Beine", "exercise": "Goblet Squats", "sets": 4, "repetitions": "10-12", "weight": 16, "pause": 90, "muscle": "Legs", "xp": 100, "enemyName": "Orc Warlord" },
+        { "title": "Beine", "exercise": "Bulgarian Split Squat", "sets": 3, "repetitions": "8/Bein", "weight": 10, "pause": 75, "muscle": "Legs", "xp": 80, "enemyName": "Orc Berserker" },
+        { "title": "Beine", "exercise": "Hip Thrust BW", "sets": 3, "repetitions": "15", "weight": 0, "pause": 60, "muscle": "Legs", "xp": 60, "enemyName": "Orc Grunt" }
+      ]
+    },
+
+    {
+      "week": 3,
+      "Push": [
+        { "title": "Brust", "exercise": "KH Bankdrücken", "sets": 4, "repetitions": "8-12", "weight": 16, "pause": 60, "muscle": "Chest", "xp": 100, "enemyName": "Infernal Demon" },
+        { "title": "Brust", "exercise": "KH Fliegende", "sets": 3, "repetitions": "10-12", "weight": 10, "pause": 60, "muscle": "Chest", "xp": 80, "enemyName": "Imp Brute" },
+        { "title": "Schultern", "exercise": "Schulterdrücken KH", "sets": 3, "repetitions": "8-10", "weight": 12, "pause": 60, "muscle": "Shoulders", "xp": 80, "enemyName": "Imp Brute" },
+        { "title": "Schultern", "exercise": "Seitheben", "sets": 3, "repetitions": "12-15", "weight": 6, "pause": 60, "muscle": "Shoulders", "xp": 60, "enemyName": "Fire Imp" }
+      ],
+      "Pull": [
+        { "title": "Rücken", "exercise": "Kurzhantelrudern", "sets": 4, "repetitions": "8-12", "weight": 16, "pause": 60, "muscle": "Back", "xp": 100, "enemyName": "Skeleton Champion" },
+        { "title": "Rücken", "exercise": "Renegade Rows", "sets": 3, "repetitions": "8-10", "weight": 12, "pause": 60, "muscle": "Back", "xp": 80, "enemyName": "Skeleton Warrior" },
+        { "title": "Bizeps", "exercise": "KH Curls", "sets": 3, "repetitions": "10-12", "weight": 10, "pause": 60, "muscle": "Biceps", "xp": 60, "enemyName": "Skeleton Minion" }
+      ],
+      "Legs": [
+        { "title": "Beine", "exercise": "Goblet Squats", "sets": 4, "repetitions": "10-12", "weight": 20, "pause": 90, "muscle": "Legs", "xp": 100, "enemyName": "Orc Warlord" },
+        { "title": "Beine", "exercise": "Hip Thrust BW", "sets": 3, "repetitions": "15", "weight": 0, "pause": 60, "muscle": "Legs", "xp": 60, "enemyName": "Orc Grunt" },
+        { "title": "Beine", "exercise": "Ausfallschritte KH", "sets": 3, "repetitions": "10/Bein", "weight": 16, "pause": 60, "muscle": "Legs", "xp": 80, "enemyName": "Orc Berserker" },
+        { "title": "Beine", "exercise": "Wadenheben", "sets": 3, "repetitions": "20", "weight": 0, "pause": 60, "muscle": "Legs", "xp": 60, "enemyName": "Orc Grunt" }
+      ]
+    },
+
+    {
+      "week": 4,
+      "Push": [
+        { "title": "Brust", "exercise": "KH Bankdrücken", "sets": 4, "repetitions": "8-10", "weight": 16, "pause": 60, "muscle": "Chest", "xp": 100, "enemyName": "Infernal Demon" },
+        { "title": "Brust", "exercise": "Schrägbank KH", "sets": 3, "repetitions": "8-10", "weight": 12, "pause": 60, "muscle": "Chest", "xp": 80, "enemyName": "Imp Brute" },
+        { "title": "Schultern", "exercise": "Arnold Press", "sets": 3, "repetitions": "8-10", "weight": 12, "pause": 60, "muscle": "Shoulders", "xp": 80, "enemyName": "Imp Brute" },
+        { "title": "Schultern", "exercise": "Seitheben", "sets": 3, "repetitions": "12-15", "weight": 6, "pause": 60, "muscle": "Shoulders", "xp": 60, "enemyName": "Fire Imp" }
+      ],
+      "Pull": [
+        { "title": "Rücken", "exercise": "Kurzhantelrudern", "sets": 4, "repetitions": "8-10", "weight": 16, "pause": 60, "muscle": "Back", "xp": 100, "enemyName": "Skeleton Champion" },
+        { "title": "Rücken", "exercise": "Reverse Fly", "sets": 3, "repetitions": "12-15", "weight": 8, "pause": 60, "muscle": "Back", "xp": 80, "enemyName": "Skeleton Warrior" },
+        { "title": "Bizeps", "exercise": "Hammer Curls", "sets": 3, "repetitions": "10-12", "weight": 10, "pause": 60, "muscle": "Biceps", "xp": 60, "enemyName": "Skeleton Minion" }
+      ],
+      "Legs": [
+        { "title": "Beine", "exercise": "Goblet Squats", "sets": 4, "repetitions": "10", "weight": 20, "pause": 90, "muscle": "Legs", "xp": 100, "enemyName": "Orc Warlord" },
+        { "title": "Beine", "exercise": "Bulgarian Split Squat", "sets": 3, "repetitions": "8/Bein", "weight": 14, "pause": 75, "muscle": "Legs", "xp": 80, "enemyName": "Orc Berserker" },
+        { "title": "Beine", "exercise": "Hip Thrust BW", "sets": 3, "repetitions": "18", "weight": 0, "pause": 60, "muscle": "Legs", "xp": 60, "enemyName": "Orc Grunt" }
+      ]
+    },
+
+    {
+      "week": 5,
+      "Push": [
+        { "title": "Brust", "exercise": "KH Bankdrücken", "sets": 5, "repetitions": "6-8", "weight": 18, "pause": 75, "muscle": "Chest", "xp": 100, "enemyName": "Infernal Demon" },
+        { "title": "Brust", "exercise": "KH Fliegende", "sets": 3, "repetitions": "10", "weight": 12, "pause": 60, "muscle": "Chest", "xp": 80, "enemyName": "Imp Brute" },
+        { "title": "Schultern", "exercise": "Schulterdrücken KH", "sets": 4, "repetitions": "6-8", "weight": 14, "pause": 75, "muscle": "Shoulders", "xp": 80, "enemyName": "Imp Brute" },
+        { "title": "Schultern", "exercise": "Seitheben", "sets": 3, "repetitions": "12", "weight": 8, "pause": 60, "muscle": "Shoulders", "xp": 60, "enemyName": "Fire Imp" }
+      ],
+      "Pull": [
+        { "title": "Rücken", "exercise": "Kurzhantelrudern", "sets": 5, "repetitions": "6-8", "weight": 18, "pause": 75, "muscle": "Back", "xp": 100, "enemyName": "Skeleton Champion" },
+        { "title": "Rücken", "exercise": "Renegade Rows", "sets": 3, "repetitions": "8", "weight": 14, "pause": 60, "muscle": "Back", "xp": 80, "enemyName": "Skeleton Warrior" },
+        { "title": "Bizeps", "exercise": "KH Curls", "sets": 4, "repetitions": "8-10", "weight": 12, "pause": 60, "muscle": "Biceps", "xp": 60, "enemyName": "Skeleton Minion" }
+      ],
+      "Legs": [
+        { "title": "Beine", "exercise": "Goblet Squats", "sets": 5, "repetitions": "8-10", "weight": 24, "pause": 90, "muscle": "Legs", "xp": 100, "enemyName": "Orc Warlord" },
+        { "title": "Beine", "exercise": "Ausfallschritte KH", "sets": 3, "repetitions": "10/Bein", "weight": 18, "pause": 75, "muscle": "Legs", "xp": 80, "enemyName": "Orc Berserker" },
+        { "title": "Beine", "exercise": "Wadenheben", "sets": 4, "repetitions": "20", "weight": 0, "pause": 60, "muscle": "Legs", "xp": 60, "enemyName": "Orc Grunt" }
+      ]
+    },
+
+    {
+      "week": 6,
+      "Push": [
+        { "title": "Brust", "exercise": "KH Bankdrücken", "sets": 5, "repetitions": "6-8", "weight": 18, "pause": 75, "muscle": "Chest", "xp": 100, "enemyName": "Infernal Demon" },
+        { "title": "Brust", "exercise": "Schrägbank KH", "sets": 3, "repetitions": "8-10", "weight": 14, "pause": 60, "muscle": "Chest", "xp": 80, "enemyName": "Imp Brute" },
+        { "title": "Schultern", "exercise": "Arnold Press", "sets": 4, "repetitions": "6-8", "weight": 14, "pause": 75, "muscle": "Shoulders", "xp": 80, "enemyName": "Imp Brute" },
+        { "title": "Schultern", "exercise": "Seitheben", "sets": 3, "repetitions": "12", "weight": 8, "pause": 60, "muscle": "Shoulders", "xp": 60, "enemyName": "Fire Imp" }
+      ],
+      "Pull": [
+        { "title": "Rücken", "exercise": "Kurzhantelrudern", "sets": 5, "repetitions": "6-8", "weight": 18, "pause": 75, "muscle": "Back", "xp": 100, "enemyName": "Skeleton Champion" },
+        { "title": "Rücken", "exercise": "Reverse Fly", "sets": 3, "repetitions": "12", "weight": 10, "pause": 60, "muscle": "Back", "xp": 80, "enemyName": "Skeleton Warrior" },
+        { "title": "Bizeps", "exercise": "Hammer Curls", "sets": 4, "repetitions": "8-10", "weight": 12, "pause": 60, "muscle": "Biceps", "xp": 60, "enemyName": "Skeleton Minion" }
+      ],
+      "Legs": [
+        { "title": "Beine", "exercise": "Goblet Squats", "sets": 5, "repetitions": "8-10", "weight": 24, "pause": 90, "muscle": "Legs", "xp": 100, "enemyName": "Orc Warlord" },
+        { "title": "Beine", "exercise": "Bulgarian Split Squat", "sets": 3, "repetitions": "8/Bein", "weight": 18, "pause": 75, "muscle": "Legs", "xp": 80, "enemyName": "Orc Berserker" },
+        { "title": "Beine", "exercise": "Hip Thrust BW", "sets": 3, "repetitions": "20", "weight": 0, "pause": 60, "muscle": "Legs", "xp": 60, "enemyName": "Orc Grunt" }
+      ]
+    },
+
+    {
+      "week": 7,
+      "Push": [
+        { "title": "Brust", "exercise": "KH Bankdrücken", "sets": 5, "repetitions": "5-7", "weight": 22, "pause": 90, "muscle": "Chest", "xp": 100, "enemyName": "Infernal Demon" },
+        { "title": "Brust", "exercise": "KH Fliegende", "sets": 3, "repetitions": "8-10", "weight": 14, "pause": 60, "muscle": "Chest", "xp": 80, "enemyName": "Imp Brute" },
+        { "title": "Schultern", "exercise": "Schulterdrücken KH", "sets": 4, "repetitions": "5-7", "weight": 16, "pause": 90, "muscle": "Shoulders", "xp": 80, "enemyName": "Imp Brute" },
+        { "title": "Schultern", "exercise": "Seitheben", "sets": 3, "repetitions": "12", "weight": 10, "pause": 60, "muscle": "Shoulders", "xp": 60, "enemyName": "Fire Imp" }
+      ],
+      "Pull": [
+        { "title": "Rücken", "exercise": "Kurzhantelrudern", "sets": 5, "repetitions": "5-7", "weight": 22, "pause": 90, "muscle": "Back", "xp": 100, "enemyName": "Skeleton Champion" },
+        { "title": "Rücken", "exercise": "Renegade Rows", "sets": 3, "repetitions": "6-8", "weight": 18, "pause": 75, "muscle": "Back", "xp": 80, "enemyName": "Skeleton Warrior" },
+        { "title": "Bizeps", "exercise": "KH Curls", "sets": 4, "repetitions": "8", "weight": 14, "pause": 60, "muscle": "Biceps", "xp": 60, "enemyName": "Skeleton Minion" }
+      ],
+      "Legs": [
+        { "title": "Beine", "exercise": "Goblet Squats", "sets": 5, "repetitions": "6-8", "weight": 28, "pause": 90, "muscle": "Legs", "xp": 100, "enemyName": "Orc Warlord" },
+        { "title": "Beine", "exercise": "Ausfallschritte KH", "sets": 3, "repetitions": "8/Bein", "weight": 22, "pause": 75, "muscle": "Legs", "xp": 80, "enemyName": "Orc Berserker" },
+        { "title": "Beine", "exercise": "Wadenheben", "sets": 4, "repetitions": "20", "weight": 0, "pause": 60, "muscle": "Legs", "xp": 60, "enemyName": "Orc Grunt" }
+      ]
+    },
+
+    {
+      "week": 8,
+      "Push": [
+        { "title": "Brust", "exercise": "KH Bankdrücken", "sets": 5, "repetitions": "5-7", "weight": 22, "pause": 90, "muscle": "Chest", "xp": 100, "enemyName": "Infernal Demon" },
+        { "title": "Brust", "exercise": "Schrägbank KH", "sets": 3, "repetitions": "8-10", "weight": 16, "pause": 60, "muscle": "Chest", "xp": 80, "enemyName": "Imp Brute" },
+        { "title": "Schultern", "exercise": "Arnold Press", "sets": 4, "repetitions": "5-7", "weight": 16, "pause": 90, "muscle": "Shoulders", "xp": 80, "enemyName": "Imp Brute" },
+        { "title": "Schultern", "exercise": "Seitheben", "sets": 3, "repetitions": "12", "weight": 10, "pause": 60, "muscle": "Shoulders", "xp": 60, "enemyName": "Fire Imp" }
+      ],
+      "Pull": [
+        { "title": "Rücken", "exercise": "Kurzhantelrudern", "sets": 5, "repetitions": "5-7", "weight": 22, "pause": 90, "muscle": "Back", "xp": 100, "enemyName": "Skeleton Champion" },
+        { "title": "Rücken", "exercise": "Reverse Fly", "sets": 3, "repetitions": "12", "weight": 12, "pause": 60, "muscle": "Back", "xp": 80, "enemyName": "Skeleton Warrior" },
+        { "title": "Bizeps", "exercise": "Hammer Curls", "sets": 4, "repetitions": "8", "weight": 14, "pause": 60, "muscle": "Biceps", "xp": 60, "enemyName": "Skeleton Minion" }
+      ],
+      "Legs": [
+        { "title": "Beine", "exercise": "Goblet Squats", "sets": 5, "repetitions": "6-8", "weight": 28, "pause": 90, "muscle": "Legs", "xp": 100, "enemyName": "Orc Warlord" },
+        { "title": "Beine", "exercise": "Bulgarian Split Squat", "sets": 3, "repetitions": "8/Bein", "weight": 22, "pause": 75, "muscle": "Legs", "xp": 80, "enemyName": "Orc Berserker" },
+        { "title": "Beine", "exercise": "Hip Thrust BW", "sets": 3, "repetitions": "22", "weight": 0, "pause": 60, "muscle": "Legs", "xp": 60, "enemyName": "Orc Grunt" }
+      ]
+    }
+  ]
+}

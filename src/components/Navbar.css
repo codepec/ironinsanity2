@@ -1,0 +1,111 @@
+/* =====================
+   TABS CONTAINER
+===================== */
+.tabs {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border);
+  padding-bottom: env(safe-area-inset-bottom);
+  z-index: 100;
+}
+
+/* =====================
+   SINGLE TAB
+===================== */
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #cbd5e1;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.tab:hover,
+.tab.active {
+  color: var(--accent);
+}
+
+/* =====================
+   ICON
+===================== */
+.tab-icon {
+  width: 26px;
+  height: 26px;
+  margin-bottom: 4px;
+  background-color: currentColor;
+
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
+/* =====================
+   ICON CLASSES
+===================== */
+.icon-home {
+  mask-image: url("../assets/icons/home.svg");
+  -webkit-mask-image: url("../assets/icons/home.svg");
+}
+
+.icon-workout {
+  mask-image: url("../assets/icons/dumbbell.svg");
+  -webkit-mask-image: url("../assets/icons/dumbbell.svg");
+}
+
+.icon-overview {
+  mask-image: url("../assets/icons/overview.svg");
+  -webkit-mask-image: url("../assets/icons/overview.svg");
+}
+
+.icon-history {
+  mask-image: url("../assets/icons/history.svg");
+  -webkit-mask-image: url("../assets/icons/history.svg");
+}
+
+.icon-settings {
+  mask-image: url("../assets/icons/settings.svg");
+  -webkit-mask-image: url("../assets/icons/settings.svg");
+}
+
+/* =====================
+   TAB TEXT
+===================== */
+.tab-text {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin-top: 2px;
+  text-align: center;
+}
+
+/* =====================
+   MOBILE ADJUSTMENTS
+===================== */
+@media (max-width: 380px) {
+  .tab-icon {
+    width: 22px;
+    height: 22px;
+  }
+  .tab {
+    font-size: 0.7rem;
+    padding: 4px 6px;
+  }
+  .tab-text {
+    font-size: 0.65rem;
+  }
+}

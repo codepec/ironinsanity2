@@ -1,0 +1,38 @@
+.power-panel {
+  padding: 16px;
+}
+
+.power-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.power-card {
+  background: #111;
+  border-radius: 16px;
+  padding: 18px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.power-value {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.power-label {
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 6px;
+  color: #aaa;
+}
+
+.power-value.positive {
+  color: #00ff88;
+}
+
+.power-value.negative {
+  color: #ff4d4d;
+}

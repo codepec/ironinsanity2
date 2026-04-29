@@ -1,0 +1,253 @@
+/* =====================
+   THEME VARIABLES
+===================== */
+:root {
+  --bg-gradient-start: #020617;
+  --bg-gradient-end: #0f172a;
+  --bg-surface: #111827;
+  --bg-soft: #0f172a;
+
+  --border: #1f2937;
+  --border-strong: #374151;
+
+  --text-main: #ffffff;
+  --text-muted: #94a3b8;
+
+  --accent: #F2A52C;
+  --accent-soft: #FBBF24;
+  --danger: #ef4444;
+  --danger-soft: #f87171;
+  --danger-dark: #b91c1c;
+
+  --success: #22c55e;
+  --success-soft: #4ade80;
+  --success-dark: #16a34a;
+
+  --violet: #8b5cf6;
+  --violet-soft: #a78bfa; 
+  --violet-dark: #6d28d9;
+
+  --goldLinear: linear-gradient(180deg, #F2E2DD 0%, #F6F4E7 22.6%, #F5E995 39.9%, #F2A52C 100%);
+  --silverLinear: linear-gradient(180deg, #D5D5D5 0%, #EBEBEB 22.6%, #DDDDDD 39.9%, #737373 100%);
+  --dangerLinear: linear-gradient(180deg, #FEE2E2 0%, #FECACA 22.6%, #FCA5A5 39.9%, #EF4444 100%);
+}
+
+/* =====================
+   THEMES
+===================== */
+[data-theme="gold"] {
+  --accent: #f59e0b;
+  --accent-soft: #fbbf24;
+}
+
+[data-theme="neon"] {
+  --accent: #22c55e;
+  --accent-soft: #4ade80;
+}
+
+[data-theme="crimson"] {
+  --accent: #ef4444;
+  --accent-soft: #f87171;
+  --danger: #b91c1c;
+}
+
+[data-theme="ocean"] {
+  --accent: #0ea5e9;
+  --accent-soft: #38bdf8;
+}
+
+[data-theme="void"] {
+  --bg-gradient-start: #000000;
+  --bg-gradient-end: #050505;
+  --bg-surface: #0a0a0a;
+  --accent: #8b5cf6;
+  --accent-soft: #a78bfa;
+}
+
+/* =====================
+   RESET / GLOBAL
+===================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Rajdhani', system-ui, Arial, sans-serif;
+  background: linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-end));
+  color: var(--text-main);
+  overflow-x: hidden;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100dvh;
+}
+
+/* =====================
+   APP WRAP
+===================== */
+.app-wrap {
+  width: 100%;
+  max-width: 980px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+  background: linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-end));
+  color: var(--text-main);
+}
+
+/* =====================
+   CONTENT
+===================== */
+.content {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 14px;
+  overflow-y: auto;
+}
+
+/* =====================
+   HERO / TITLE
+===================== */
+.hero {
+  width: 100%;
+  text-align: center;
+  padding: 32px 22px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.hero-inner {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+
+.hero-sub {
+  margin-top: 6px;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+
+/* =====================
+   BUTTONS
+===================== */
+button {
+  font-family: 'Orbitron', sans-serif;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button.primary, .btn-primary {
+  background: var(--goldLinear);
+  border: none;
+  border-radius: 15px;
+  padding: 12px 20px;
+  font-weight: 700;
+  color: var(--bg-surface);
+}
+
+button.primary:active, .btn-primary:active {
+  transform: scale(0.95);
+}
+
+button.success, .btn-success {
+  background: linear-gradient(180deg, var(--accent), var(--accent-soft));
+  border: none;
+  border-radius: 15px;
+  padding: 12px 20px;
+  color: #fff;
+  font-weight: 700;
+}
+
+button.locked, .btn-locked {
+  background: var(--border);
+  color: var(--gray);
+  border-radius: 15px;
+  padding: 12px 20px;
+  font-weight: 700;
+}
+
+/* =====================
+   PROGRESS / XP BARS
+===================== */
+.xpbar {
+  margin-top: 12px;
+  height: 8px;
+  background: var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.xpfill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent-soft));
+  transition: width 0.4s ease;
+}
+
+/* =====================
+   TABS
+===================== */
+.tabs {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border);
+  z-index: 100;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #cbd5e1;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.tab.active, .tab:hover {
+  color: var(--accent);
+}
+
+/* =====================
+   MEDIA QUERIES
+===================== */
+@media(max-width:768px) {
+  .hero { width: 85%; }
+  .row { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media(max-width:600px) {
+  .hero-title { font-size: 1.8rem; }
+  .hero-sub { font-size: 0.85rem; }
+}
+
+@media(max-width:380px) {
+  .hero-inner { padding: 8px 12px; gap: 6px; }
+  button { padding: 12px 16px; font-size: 0.85rem; }
+}
+
+
