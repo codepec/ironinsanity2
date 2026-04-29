@@ -1,8 +1,10 @@
+import skullIcon from '../assets/icons/ui/game-icons_daemon-skull.png';
+
 function BossCard() {
   return (
     <div className="mission-card boss">
       <div className="card-header">
-        <img className="icon" src="/src/assets/icons/ui/game-icons_daemon-skull.png" />
+        <img className="icon" src={skullIcon} />
         <div className="title-block">
           <span className="quest-type mission">Boss</span>
           <h2 className="quest-name">Gesamtkörper</h2>
