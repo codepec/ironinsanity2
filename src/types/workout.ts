@@ -17,6 +17,7 @@ export type WorkoutWeek = {
   Push: WorkoutDay;
   Pull: WorkoutDay;
   Legs: WorkoutDay;
+  Boss?: WorkoutDay;
 };
 
 export type WorkoutData = {

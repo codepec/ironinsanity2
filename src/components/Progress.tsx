@@ -7,9 +7,7 @@ export default function Progress() {
   const isEmpty = workoutHistory.length === 0;
   
   // Calculate total volume from history
-  const totalVolume = isEmpty 
-    ? 0 
-    : workoutHistory.reduce((s, x) => s + (x.xp || 0), 0);
+  //const _totalVolume = isEmpty? 0: workoutHistory.reduce((s, x) => s + (x.xp || 0), 0);
   
   // Calculate week comparison
   const last7 = workoutHistory.slice(-7);
@@ -21,7 +19,7 @@ export default function Progress() {
   const weekDiff = lastSum - prevSum;
   
   // Strength score based on total XP
-  const score = isEmpty ? 0 : Math.floor(userProgress.totalXp / 1000);
+  //const score = isEmpty ? 0 : Math.floor(userProgress.totalXp / 1000);
 
   return (
     <div className="power-panel">

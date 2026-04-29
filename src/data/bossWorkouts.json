@@ -4,14 +4,14 @@
       "week": 1,
       "name": "Der gefallene Krieger",
       "workout": [
-        { "exercise": "KH Bankdrücken", "sets": 5, "repetitions": "10", "weight": 12, "pause": 60, "xp": 150 },
-        { "exercise": "Liegestütze", "sets": 3, "repetitions": "Max", "weight": 0, "pause": 45, "xp": 100 },
+        { "exercise": "KH Bankdrücken", "muscle": "Chest", "enemyName": "Der gefallene Krieger", "sets": 5, "repetitions": "10", "weight": 12, "pause": 60, "xp": 150 },
+        { "exercise": "Liegestütze", "muscle": "Chest", "enemyName": "Der gefallene Krieger", "sets": 3, "repetitions": "Max", "weight": 0, "pause": 45, "xp": 100 },
 
-        { "exercise": "Kurzhantelrudern", "sets": 4, "repetitions": "10", "weight": 12, "pause": 60, "xp": 120 },
-        { "exercise": "Renegade Rows", "sets": 3, "repetitions": "8", "weight": 10, "pause": 60, "xp": 120 },
+        { "exercise": "Kurzhantelrudern", "muscle": "Back", "enemyName": "Der gefallene Krieger", "sets": 4, "repetitions": "10", "weight": 12, "pause": 60, "xp": 120 },
+        { "exercise": "Renegade Rows", "muscle": "Core/Back", "enemyName": "Der gefallene Krieger", "sets": 3, "repetitions": "8", "weight": 10, "pause": 60, "xp": 120 },
 
-        { "exercise": "Goblet Squats", "sets": 4, "repetitions": "12", "weight": 16, "pause": 75, "xp": 150 },
-        { "exercise": "Wadenheben", "sets": 3, "repetitions": "20", "weight": 0, "pause": 45, "xp": 80 }
+        { "exercise": "Goblet Squats", "muscle": "Legs", "enemyName": "Der gefallene Krieger", "sets": 4, "repetitions": "12", "weight": 16, "pause": 75, "xp": 150 },
+        { "exercise": "Wadenheben", "muscle": "Calves", "enemyName": "Der gefallene Krieger", "sets": 3, "repetitions": "20", "weight": 0, "pause": 45, "xp": 80 }
       ]
     },
 
@@ -19,13 +19,13 @@
       "week": 2,
       "name": "Schattenbestie",
       "workout": [
-        { "exercise": "Schrägbank KH", "sets": 4, "repetitions": "10", "weight": 12, "pause": 60, "xp": 140 },
-        { "exercise": "KH Fliegende", "sets": 3, "repetitions": "12", "weight": 8, "pause": 60, "xp": 100 },
+        { "exercise": "Schrägbank KH", "muscle": "Chest", "enemyName": "Schattenbestie", "sets": 4, "repetitions": "10", "weight": 12, "pause": 60, "xp": 140 },
+        { "exercise": "KH Fliegende", "muscle": "Chest", "enemyName": "Schattenbestie", "sets": 3, "repetitions": "12", "weight": 8, "pause": 60, "xp": 100 },
 
-        { "exercise": "Reverse Fly", "sets": 3, "repetitions": "15", "weight": 6, "pause": 45, "xp": 100 },
-        { "exercise": "KH Curls", "sets": 3, "repetitions": "12", "weight": 8, "pause": 60, "xp": 100 },
+        { "exercise": "Reverse Fly", "muscle": "Rear Delts", "enemyName": "Schattenbestie", "sets": 3, "repetitions": "15", "weight": 6, "pause": 45, "xp": 100 },
+        { "exercise": "KH Curls", "muscle": "Biceps", "enemyName": "Schattenbestie", "sets": 3, "repetitions": "12", "weight": 8, "pause": 60, "xp": 100 },
 
-        { "exercise": "Bulgarian Split Squat", "sets": 3, "repetitions": "10/Bein", "weight": 12, "pause": 75, "xp": 140 }
+        { "exercise": "Bulgarian Split Squat", "muscle": "Legs", "enemyName": "Schattenbestie", "sets": 3, "repetitions": "10/Bein", "weight": 12, "pause": 75, "xp": 140 }
       ]
     },
 
@@ -33,12 +33,12 @@
       "week": 3,
       "name": "Titan der Arena",
       "workout": [
-        { "exercise": "KH Bankdrücken", "sets": 5, "repetitions": "8", "weight": 16, "pause": 75, "xp": 160 },
-        { "exercise": "Liegestütze", "sets": 3, "repetitions": "Max", "weight": 0, "pause": 45, "xp": 120 },
+        { "exercise": "KH Bankdrücken", "muscle": "Chest", "enemyName": "Titan der Arena", "sets": 5, "repetitions": "8", "weight": 16, "pause": 75, "xp": 160 },
+        { "exercise": "Liegestütze", "muscle": "Chest", "enemyName": "Titan der Arena", "sets": 3, "repetitions": "Max", "weight": 0, "pause": 45, "xp": 120 },
 
-        { "exercise": "Kurzhantelrudern", "sets": 5, "repetitions": "8", "weight": 16, "pause": 75, "xp": 160 },
+        { "exercise": "Kurzhantelrudern", "muscle": "Back", "enemyName": "Titan der Arena", "sets": 5, "repetitions": "8", "weight": 16, "pause": 75, "xp": 160 },
 
-        { "exercise": "Goblet Squats", "sets": 5, "repetitions": "10", "weight": 20, "pause": 90, "xp": 180 }
+        { "exercise": "Goblet Squats", "muscle": "Legs", "enemyName": "Titan der Arena", "sets": 5, "repetitions": "10", "weight": 20, "pause": 90, "xp": 180 }
       ]
     },
 
@@ -46,12 +46,12 @@
       "week": 4,
       "name": "Flammenlord",
       "workout": [
-        { "exercise": "Arnold Press", "sets": 4, "repetitions": "8", "weight": 12, "pause": 75, "xp": 140 },
-        { "exercise": "Seitheben", "sets": 3, "repetitions": "15", "weight": 6, "pause": 45, "xp": 100 },
+        { "exercise": "Arnold Press", "muscle": "Shoulders", "enemyName": "Flammenlord", "sets": 4, "repetitions": "8", "weight": 12, "pause": 75, "xp": 140 },
+        { "exercise": "Seitheben", "muscle": "Shoulders", "enemyName": "Flammenlord", "sets": 3, "repetitions": "15", "weight": 6, "pause": 45, "xp": 100 },
 
-        { "exercise": "Renegade Rows", "sets": 4, "repetitions": "8", "weight": 12, "pause": 60, "xp": 140 },
+        { "exercise": "Renegade Rows", "muscle": "Core/Back", "enemyName": "Flammenlord", "sets": 4, "repetitions": "8", "weight": 12, "pause": 60, "xp": 140 },
 
-        { "exercise": "Ausfallschritte KH", "sets": 4, "repetitions": "10/Bein", "weight": 14, "pause": 75, "xp": 160 }
+        { "exercise": "Ausfallschritte KH", "muscle": "Legs", "enemyName": "Flammenlord", "sets": 4, "repetitions": "10/Bein", "weight": 14, "pause": 75, "xp": 160 }
       ]
     },
 
@@ -59,12 +59,12 @@
       "week": 5,
       "name": "Der eiserne Wächter",
       "workout": [
-        { "exercise": "KH Bankdrücken", "sets": 6, "repetitions": "6-8", "weight": 18, "pause": 90, "xp": 180 },
-        { "exercise": "KH Fliegende", "sets": 3, "repetitions": "10", "weight": 12, "pause": 60, "xp": 120 },
+        { "exercise": "KH Bankdrücken", "muscle": "Chest", "enemyName": "Der eiserne Wächter", "sets": 6, "repetitions": "6-8", "weight": 18, "pause": 90, "xp": 180 },
+        { "exercise": "KH Fliegende", "muscle": "Chest", "enemyName": "Der eiserne Wächter", "sets": 3, "repetitions": "10", "weight": 12, "pause": 60, "xp": 120 },
 
-        { "exercise": "Kurzhantelrudern", "sets": 5, "repetitions": "8", "weight": 18, "pause": 75, "xp": 180 },
+        { "exercise": "Kurzhantelrudern", "muscle": "Back", "enemyName": "Der eiserne Wächter", "sets": 5, "repetitions": "8", "weight": 18, "pause": 75, "xp": 180 },
 
-        { "exercise": "Goblet Squats", "sets": 5, "repetitions": "8", "weight": 24, "pause": 90, "xp": 200 }
+        { "exercise": "Goblet Squats", "muscle": "Legs", "enemyName": "Der eiserne Wächter", "sets": 5, "repetitions": "8", "weight": 24, "pause": 90, "xp": 200 }
       ]
     },
 
@@ -72,12 +72,12 @@
       "week": 6,
       "name": "Blutbestie",
       "workout": [
-        { "exercise": "Schulterdrücken KH", "sets": 5, "repetitions": "6-8", "weight": 14, "pause": 90, "xp": 160 },
-        { "exercise": "Seitheben", "sets": 4, "repetitions": "12", "weight": 8, "pause": 60, "xp": 120 },
+        { "exercise": "Schulterdrücken KH", "muscle": "Shoulders", "enemyName": "Blutbestie", "sets": 5, "repetitions": "6-8", "weight": 14, "pause": 90, "xp": 160 },
+        { "exercise": "Seitheben", "muscle": "Shoulders", "enemyName": "Blutbestie", "sets": 4, "repetitions": "12", "weight": 8, "pause": 60, "xp": 120 },
 
-        { "exercise": "Reverse Fly", "sets": 3, "repetitions": "12", "weight": 10, "pause": 60, "xp": 120 },
+        { "exercise": "Reverse Fly", "muscle": "Rear Delts", "enemyName": "Blutbestie", "sets": 3, "repetitions": "12", "weight": 10, "pause": 60, "xp": 120 },
 
-        { "exercise": "Bulgarian Split Squat", "sets": 4, "repetitions": "8/Bein", "weight": 18, "pause": 75, "xp": 180 }
+        { "exercise": "Bulgarian Split Squat", "muscle": "Legs", "enemyName": "Blutbestie", "sets": 4, "repetitions": "8/Bein", "weight": 18, "pause": 75, "xp": 180 }
       ]
     },
 
@@ -85,12 +85,12 @@
       "week": 7,
       "name": "König der Titanen",
       "workout": [
-        { "exercise": "KH Bankdrücken", "sets": 6, "repetitions": "5-7", "weight": 22, "pause": 90, "xp": 200 },
-        { "exercise": "Liegestütze", "sets": 3, "repetitions": "Max", "weight": 0, "pause": 45, "xp": 150 },
+        { "exercise": "KH Bankdrücken", "muscle": "Chest", "enemyName": "König der Titanen", "sets": 6, "repetitions": "5-7", "weight": 22, "pause": 90, "xp": 200 },
+        { "exercise": "Liegestütze", "muscle": "Chest", "enemyName": "König der Titanen", "sets": 3, "repetitions": "Max", "weight": 0, "pause": 45, "xp": 150 },
 
-        { "exercise": "Kurzhantelrudern", "sets": 6, "repetitions": "5-7", "weight": 22, "pause": 90, "xp": 200 },
+        { "exercise": "Kurzhantelrudern", "muscle": "Back", "enemyName": "König der Titanen", "sets": 6, "repetitions": "5-7", "weight": 22, "pause": 90, "xp": 200 },
 
-        { "exercise": "Goblet Squats", "sets": 6, "repetitions": "6-8", "weight": 28, "pause": 90, "xp": 220 }
+        { "exercise": "Goblet Squats", "muscle": "Legs", "enemyName": "König der Titanen", "sets": 6, "repetitions": "6-8", "weight": 28, "pause": 90, "xp": 220 }
       ]
     },
 
@@ -98,14 +98,14 @@
       "week": 8,
       "name": "Endboss: Der Unsterbliche",
       "workout": [
-        { "exercise": "KH Bankdrücken", "sets": 6, "repetitions": "5", "weight": 22, "pause": 90, "xp": 250 },
-        { "exercise": "Schrägbank KH", "sets": 4, "repetitions": "8", "weight": 16, "pause": 75, "xp": 180 },
+        { "exercise": "KH Bankdrücken", "muscle": "Chest", "enemyName": "Der Unsterbliche", "sets": 6, "repetitions": "5", "weight": 22, "pause": 90, "xp": 250 },
+        { "exercise": "Schrägbank KH", "muscle": "Chest", "enemyName": "Der Unsterbliche", "sets": 4, "repetitions": "8", "weight": 16, "pause": 75, "xp": 180 },
 
-        { "exercise": "Renegade Rows", "sets": 5, "repetitions": "8", "weight": 18, "pause": 75, "xp": 200 },
+        { "exercise": "Renegade Rows", "muscle": "Core/Back", "enemyName": "Der Unsterbliche", "sets": 5, "repetitions": "8", "weight": 18, "pause": 75, "xp": 200 },
 
-        { "exercise": "Bulgarian Split Squat", "sets": 5, "repetitions": "8/Bein", "weight": 22, "pause": 75, "xp": 220 },
+        { "exercise": "Bulgarian Split Squat", "muscle": "Legs", "enemyName": "Der Unsterbliche", "sets": 5, "repetitions": "8/Bein", "weight": 22, "pause": 75, "xp": 220 },
 
-        { "exercise": "Liegestütze", "sets": 1, "repetitions": "MAX OUT", "weight": 0, "pause": 0, "xp": 300 }
+        { "exercise": "Liegestütze", "muscle": "Chest", "enemyName": "Der Unsterbliche", "sets": 1, "repetitions": "MAX OUT", "weight": 0, "pause": 0, "xp": 300 }
       ]
     }
   ]

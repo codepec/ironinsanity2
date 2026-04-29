@@ -1,7 +1,6 @@
 // src/store/index.ts
 export { AppProvider, useApp } from './AppContext';
 export type {
-  AppContextType,
   DailyQuest,
   WeeklyQuest,
   MainQuest,

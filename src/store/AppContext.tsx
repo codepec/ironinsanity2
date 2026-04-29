@@ -1,12 +1,12 @@
 // src/store/AppContext.tsx
-import React, { createContext, useContext, useEffect, useState, useCallback, ReactNode } from 'react';
+import React, { createContext, useContext, useEffect, useState, useCallback } from 'react';
 import workoutData from '../data/workouts.json';
 import dailyData from '../data/dailyquests.json';
 import weeklyData from '../data/weeklyquests.json';
 import mainQuestData from '../data/mainquests.json';
 import bossData from '../data/bossWorkouts.json';
-import type { Exercise, WorkoutWeek, WorkoutData } from '../types/workout';
-import type { Quest, Act } from '../types/types';
+import type { Exercise, WorkoutWeek } from '../types/workout';
+
 
 // =============================
 // 📦 Type Definitions
@@ -214,11 +214,8 @@ const AppContext = createContext<AppContextType | undefined>(undefined);
 // 📦 Provider Component
 // =============================
 
-interface AppProviderProps {
-  children: ReactNode;
-}
 
-export const AppProvider: React.FC<AppProviderProps> = ({ children }) => {
+export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   // Initialize state from localStorage or defaults
   const [userProgress, setUserProgress] = useState<UserProgress>(() => {
     const totalXp = Number(localStorage.getItem('totalXp') || 0);
