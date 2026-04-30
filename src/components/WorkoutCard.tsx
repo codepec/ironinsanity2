@@ -51,7 +51,7 @@ export const WorkoutCard: React.FC<Props> = ({
 
 
   const enemyImage = getEnemyImage(exercise.muscle, exercise.xp);
-  const imageSrc = `${import.meta.env.BASE_URL}/assets/images/enemies/${enemyImage}`;
+  const imageSrc = `${import.meta.env.BASE_URL}assets/images/enemies/${enemyImage}`;
 
   return (
     <div className={`card ${isBoss ? "boss" : ""} workout-card`}>
