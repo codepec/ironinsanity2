@@ -60,19 +60,19 @@ function Home() {
       type: "Push",
       title: "Push: Brust & Trizeps",
       description: "Zerstöre deine Brust und Trizeps",
-      icon: "/src/assets/icons/ui/game-icons_burning-sword.svg",
+      icon: `${import.meta.env.BASE_URL}/assets/icons/ui/game-icons_burning-sword.svg`,
     },
     {
       type: "Pull",
       title: "Pull: Rücken & Bizeps",
       description: "Stärke Rücken & Bizeps",
-      icon: "/src/assets/icons/ui/game-icons_burning-axe.svg",
+      icon: `${import.meta.env.BASE_URL}/assets/icons/ui/game-icons_burning-axe.svg`,
     },
     {
       type: "Legs",
       title: "Legs: Beine & Po",
       description: "Trainiere Beine & Po",
-      icon: "/src/assets/icons/ui/game-icons_burning-axe.svg",
+      icon: `${import.meta.env.BASE_URL}/assets/icons/ui/game-icons_burning-axe.svg`,
     },
   ];
 
@@ -93,7 +93,7 @@ function Home() {
         title={mainQuestline.title}
         xp={currentMainQuest?.reward || 0}
         description={currentMainQuest?.story || mainQuestline.description}
-        icon="/src/assets/icons/ui/game-icons_daemon-skull.png"
+        icon={`${import.meta.env.BASE_URL}/assets/icons/ui/game-icons_daemon-skull.png`}
       />
 
       <WeekProgress 
@@ -127,7 +127,7 @@ function Home() {
           title={`Boss: ${bossData.name}`}
           description="Besiege den Boss in einem epischen Kampf!"
           xp={getTotalXpForDay(week, "Boss")}
-          icon="/src/assets/icons/ui/game-icons_daemon-skull.png"
+          icon={`${import.meta.env.BASE_URL}/assets/icons/ui/game-icons_daemon-skull.png`}
           onStart={() => startMission("Boss")}
           disabled={isBossLocked}
         />
