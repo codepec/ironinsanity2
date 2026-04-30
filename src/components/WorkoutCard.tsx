@@ -28,12 +28,12 @@ export const WorkoutCard: React.FC<Props> = ({
 
 
   const enemyPools: Record<string, string[]> = {
-    Chest: ["goblin1.png", "goblin2.png", "goblin3.png"],
-    Back: ["skeleton1.png", "skeleton2.png", "skeleton3.png"],
-    Legs: ["orc1.png", "orc2.png", "orc3.png"],
-    Shoulders: ["imp1.png", "imp2.png", "imp3.png"],
-    Biceps: ["ghost1.png", "ghost2.png", "ghost3.png"],
-    Triceps: ["ghost_orc1.png", "ghost_orc2.png", "ghost_orc3.png"]
+    Chest: ["goblin1.PNG", "goblin2.PNG", "goblin3.PNG"],
+    Back: ["skeleton1.PNG", "skeleton2.PNG", "skeleton3.PNG"],
+    Legs: ["orc1.PNG", "orc2.PNG", "orc3.PNG"],
+    Shoulders: ["imp1.PNG", "imp2.PNG", "imp3.PNG"],
+    Biceps: ["ghost1.PNG", "ghost2.PNG", "ghost3.PNG"],
+    Triceps: ["ghost_orc1.PNG", "ghost_orc2.PNG", "ghost_orc3.PNG"]
   };
 
   function getEnemyImage(muscle: string, xp: number) {
