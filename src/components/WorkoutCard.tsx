@@ -2,7 +2,7 @@
 import React from "react";
 import type { Exercise } from "../types/workout";
 import "./WorkoutCard.css";
-
+  
 type Props = {
   exercise: Exercise;
   setIndex: number;
@@ -24,6 +24,8 @@ export const WorkoutCard: React.FC<Props> = ({
     if (xp >= 80) return 2;
     return 1;
   }
+
+
 
   const enemyPools: Record<string, string[]> = {
     Chest: ["goblin1.png", "goblin2.png", "goblin3.png"],
@@ -49,6 +51,7 @@ export const WorkoutCard: React.FC<Props> = ({
 
 
   const enemyImage = getEnemyImage(exercise.muscle, exercise.xp);
+  const imageSrc = `${import.meta.env.BASE_URL}assets/images/enemies/${enemyImage}`;
 
   return (
     <div className={`card ${isBoss ? "boss" : ""} workout-card`}>
@@ -61,7 +64,7 @@ export const WorkoutCard: React.FC<Props> = ({
 
       {/* Enemy Image */}
       <img
-        src={`/src/assets/images/enemies/${enemyImage}`}
+        src={imageSrc}
         alt={exercise.enemyName}
         className="muscle-icon"
         loading="eager"

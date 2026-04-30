@@ -1,6 +1,7 @@
 import React from "react";
 import { useApp } from "../store";
 import "./RankHeader.css";
+import tridemEmblem from "../assets/icons/ui/emojione-monotone_trident-emblem.png";
 
 const RankHeader: React.FC = () => {
   const { userProgress } = useApp();
@@ -11,7 +12,7 @@ const RankHeader: React.FC = () => {
     <div className="rank-header">
       <div className="rank-box">
         <img
-          src="/src/assets/icons/ui/emojione-monotone_trident-emblem.png"
+          src={tridemEmblem}
           width={25}
           height={25}
           alt="Rank Icon"
