@@ -42,7 +42,7 @@ export default function Title() {
       </h1>
 
       <img
-        src={`${import.meta.env.BASE_URL}/assets/icons/Line3.png`}
+        src={`${import.meta.env.BASE_URL}assets/icons/Line3.png`}
         alt="Decorative Line"
         className="decorative-line"
       />
