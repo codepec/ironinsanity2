@@ -56,12 +56,10 @@ export const WorkoutCard: React.FC<Props> = ({
   return (
     <div className={`card ${isBoss ? "boss" : ""} workout-card`}>
       
-      {/* Meta Info */}
-      <div className="meta">Muskel: {exercise.muscle}</div>
+    <div className="card-inner">
 
-      {/* Exercise Name */}
-      <div className="exercise">{exercise.exercise}</div>
 
+    <div className="exercise-image">
       {/* Enemy Image */}
       <img
         src={imageSrc}
@@ -70,6 +68,18 @@ export const WorkoutCard: React.FC<Props> = ({
         loading="eager"
         decoding="async"
       />
+
+      </div>
+
+      <div className="exercise-info">
+
+      {/* Meta Info */}
+      <div className="meta">Muskel: {exercise.muscle}</div>
+
+      {/* Exercise Name */}
+      <div className="exercise">{exercise.exercise}</div>
+
+
 
       {/* Enemy Name */}
       <div className="enemy-info">
@@ -87,25 +97,32 @@ export const WorkoutCard: React.FC<Props> = ({
           style={{ width: `${(currentHP / totalHP) * 100}%` }}
         />
       </div>
+      </div>
+
+      </div>
 
       {/* Info Grid */}
       <div className="info-grid">
         <div className="badge">
+          <img className="badge-icon repetitions" alt="repetitions.svg" />
           <div className="badge-label">Wdh</div>
           <div className="badge-value">{exercise.repetitions}</div>
         </div>
 
         <div className="badge">
+          <img className="badge-icon" src="src/assets/icons/weight.svg" alt="weight.svg" />
           <div className="badge-label">Gewicht</div>
           <div className="badge-value">{exercise.weight}</div>
         </div>
 
         <div className="badge">
+          <img className="badge-icon" src="src/assets/icons/pause.svg" alt="pause.svg" />
           <div className="badge-label">Pause</div>
           <div className="badge-value">{exercise.pause}s</div>
         </div>
 
         <div className="badge">
+          <img className="badge-icon" src="src/assets/icons/xp.svg" alt="xp.svg" />
           <div className="badge-label">XP</div>
           <div className="badge-value">{exercise.xp}</div>
         </div>
