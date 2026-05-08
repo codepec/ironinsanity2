@@ -4,8 +4,9 @@ import "./Navbar.css"; // sicherstellen, dass dein CSS aus deiner Tabs-Sektion h
 function Navbar() {
   const tabs = [
     { name: "Home", path: "/", iconClass: "icon-home" },
-    { name: "Workout", path: "/workout", iconClass: "icon-workout" },
     { name: "Übersicht", path: "/preview", iconClass: "icon-overview" },
+    { name: "Workout", path: "/workout", iconClass: "icon-workout" },
+    { name: "Story", path: "/story", iconClass: "icon-story" },
     { name: "History", path: "/history", iconClass: "icon-history" },
     { name: "Settings", path: "/settings", iconClass: "icon-settings" },
   ];

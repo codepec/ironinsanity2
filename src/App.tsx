@@ -4,6 +4,7 @@ import { Workout } from "./pages/Workout";
 import History from "./pages/History";
 import Preview from "./pages/Preview";
 import Settings from "./pages/Settings";
+import Story from "./pages/Story";
 import Navbar from "./components/Navbar";
 import { AppProvider } from "./store";
 
@@ -15,9 +16,10 @@ function App() {
       {/* 🔹 Seiten */}
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/preview" element={<Preview />} />
         <Route path="/workout" element={<Workout />} />
         <Route path="/history" element={<History />} />
-        <Route path="/preview" element={<Preview />} />
+        <Route path="/story" element={<Story/>} />
         <Route path="/settings" element={<Settings />} />
       </Routes>
     </AppProvider>

@@ -8,6 +8,7 @@ import WeeklyQuests from "../components/WeeklyQuests";
 import DailyQuests from "../components/DailyQuests";
 import Progress from "../components/Progress";
 import Title from "../components/Title";
+import "./Home.css";
 
 function Home() {
   const navigate = useNavigate();
@@ -84,6 +85,9 @@ function Home() {
   return (
     <div className="app-wrap">
       <RankHeader />
+
+      <div className="home-hero">
+
       <Title />
       <Progress />
 
@@ -138,6 +142,7 @@ function Home() {
 
       {/* 🔹 Weekly Quests */}
       <WeeklyQuests />
+    </div>
     </div>
   );
 }

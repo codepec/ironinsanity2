@@ -1,0 +1,218 @@
+{
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Der Aufstieg",
+      "week": 1,
+      "description": "Du erwachst geschwächt. Stärke ist dein einziger Ausweg.",
+      "boss": {
+        "name": "Gefallener Rekrut",
+        "hp": 300
+      },
+      "objectives": [
+        {
+          "type": "complete_workouts",
+          "target": 3
+        },
+        {
+          "type": "total_xp",
+          "source": "week",
+          "target": 300
+        }
+      ],
+      "rewards": {
+        "xp": 500,
+        "gold": 200,
+        "item": "Rusty Blade"
+      }
+    },
+
+    {
+      "id": 2,
+      "title": "Die Prüfung",
+      "week": 2,
+      "description": "Die Arena prüft deine Stärke.",
+      "boss": {
+        "name": "Arena Wächter",
+        "hp": 500
+      },
+      "objectives": [
+        {
+          "type": "complete_workouts",
+          "target": 5
+        },
+        {
+          "type": "total_volume",
+          "source": "week",
+          "target": 10000
+        }
+      ],
+      "rewards": {
+        "xp": 800,
+        "gold": 400,
+        "skill": "Stamina I"
+      }
+    },
+
+    {
+      "id": 3,
+      "title": "Der Verrat",
+      "week": 3,
+      "description": "Malvora verrät dich und öffnet die Tore.",
+      "boss": {
+        "name": "Malvora",
+        "hp": 800
+      },
+      "objectives": [
+        {
+          "type": "complete_type",
+          "workoutType": "Push",
+          "target": 1
+        },
+        {
+          "type": "total_volume",
+          "source": "week",
+          "target": 20000
+        }
+      ],
+      "rewards": {
+        "xp": 1200,
+        "gold": 600,
+        "item": "Blade of Betrayal"
+      }
+    },
+
+    {
+      "id": 4,
+      "title": "Die Schatten",
+      "week": 4,
+      "description": "Die Welt versinkt im Chaos.",
+      "boss": {
+        "name": "Shadow Beast",
+        "hp": 1000
+      },
+      "objectives": [
+        {
+          "type": "complete_workouts",
+          "target": 7
+        },
+        {
+          "type": "complete_type",
+          "workoutType": "Pull",
+          "target": 2
+        }
+      ],
+      "rewards": {
+        "xp": 1500,
+        "gold": 800,
+        "item": "Shadow Armor"
+      }
+    },
+
+    {
+      "id": 5,
+      "title": "Blut & Eisen",
+      "week": 5,
+      "description": "Du wirst stärker als je zuvor.",
+      "boss": {
+        "name": "Iron Titan",
+        "hp": 1400
+      },
+      "objectives": [
+        {
+          "type": "total_volume",
+          "source": "week",
+          "target": 25000
+        },
+        {
+          "type": "personal_record",
+          "target": 1
+        }
+      ],
+      "rewards": {
+        "xp": 2000,
+        "gold": 1000,
+        "item": "Titan Core"
+      }
+    },
+
+    {
+      "id": 6,
+      "title": "Der Krieg",
+      "week": 6,
+      "description": "Die Dämonen greifen an.",
+      "boss": {
+        "name": "Dämonen-General",
+        "hp": 1800
+      },
+      "objectives": [
+        {
+          "type": "weekly_frequency",
+          "target": 6
+        },
+        {
+          "type": "session_xp",
+          "target": 200
+        }
+      ],
+      "rewards": {
+        "xp": 2500,
+        "gold": 1200,
+        "item": "War Banner"
+      }
+    },
+
+    {
+      "id": 7,
+      "title": "Die Wahrheit",
+      "week": 7,
+      "description": "Die Quelle der Dunkelheit wird enthüllt.",
+      "boss": {
+        "name": "The Watcher",
+        "hp": 2200
+      },
+      "objectives": [
+        {
+          "type": "total_volume",
+          "source": "week",
+          "target": 30000
+        },
+        {
+          "type": "train_all_types",
+          "target": 3
+        }
+      ],
+      "rewards": {
+        "xp": 3000,
+        "gold": 1500,
+        "skill": "Mind Control"
+      }
+    },
+
+    {
+      "id": 8,
+      "title": "Infernal Demon",
+      "week": 8,
+      "description": "Das finale Gefecht beginnt.",
+      "boss": {
+        "name": "Infernal Demon",
+        "hp": 3000
+      },
+      "objectives": [
+        {
+          "type": "session_xp",
+          "target": 300
+        },
+        {
+          "type": "weekly_streak",
+          "target": 7
+        }
+      ],
+      "rewards": {
+        "xp": 5000,
+        "gold": 3000,
+        "item": "Infernal Crown"
+      }
+    }
+  ]
+}

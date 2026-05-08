@@ -6,7 +6,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 60px;
+  height: 100px; /* höher wegen größerer Icons */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -14,6 +14,7 @@
   border-top: 1px solid var(--border);
   padding-bottom: env(safe-area-inset-bottom);
   z-index: 100;
+  
 }
 
 /* =====================
@@ -23,7 +24,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6px 8px;
+  padding: 8px 10px;
   font-size: 0.85rem;
   font-weight: 600;
   color: #cbd5e1;
@@ -41,9 +42,9 @@
    ICON
 ===================== */
 .tab-icon {
-  width: 26px;
-  height: 26px;
-  margin-bottom: 4px;
+  width: 33px;   /* vorher 26px */
+  height: 33px;  /* vorher 26px */
+  margin-bottom: 6px;
   background-color: currentColor;
 
   mask-size: contain;
@@ -73,6 +74,11 @@
   -webkit-mask-image: url("../assets/icons/overview.svg");
 }
 
+.icon-story {
+  mask-image: url("../assets/icons/story.svg");
+  -webkit-mask-image: url("../assets/icons/story.svg");
+}
+
 .icon-history {
   mask-image: url("../assets/icons/history.svg");
   -webkit-mask-image: url("../assets/icons/history.svg");
@@ -87,7 +93,7 @@
    TAB TEXT
 ===================== */
 .tab-text {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   line-height: 1rem;
   margin-top: 2px;
   text-align: center;
@@ -98,13 +104,15 @@
 ===================== */
 @media (max-width: 380px) {
   .tab-icon {
-    width: 22px;
-    height: 22px;
+    width: 33px;
+    height: 33px;
   }
+
   .tab {
     font-size: 0.7rem;
     padding: 4px 6px;
   }
+
   .tab-text {
     font-size: 0.65rem;
   }
